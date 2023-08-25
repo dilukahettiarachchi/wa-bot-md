@@ -107,7 +107,7 @@ global.REMOVE_BG_API = 't7ZiMHcFJevdz56daAG8trPA'
 //👇 Change Bot Language 
 global.LANG = 'EN ,SI'
 //Alive logo
-global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/Bot-08-25-12`
+global.alivelogo = process.env.ALIVE_IMAGE || `https://telegra.ph/Bot-08-25-13`
 //👇 Alive message
 global.ALIVE_MESSAGE = process.env.ALIVE_MESSAGE || `default`
 //👇 Welcome Mesaage
@@ -190,7 +190,7 @@ global.APIKeys = {
 	'https://zenzapi.xyz': '01ABEB1E11', //Kalau habis beli sendiri
 }
 
-//global.alivelogo = `https://telegra.ph/file/b3f17c16eedf99731a52d.jpg`
+//global.alivelogo = `https://telegra.ph/bot-08-25-13`
 global.imgalive = fs.readFileSync('./Media/image/Elisa.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
